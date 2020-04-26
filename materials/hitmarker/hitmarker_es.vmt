@@ -1,0 +1,7 @@
+"MonitorScreen"
+{
+	"$basetexture" "hitmarker/hitmarker_es"
+	"$alphatest" 1
+	"$translucent" 1
+	"$vertexalpha" 1
+}

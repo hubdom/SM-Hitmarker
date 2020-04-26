@@ -1,0 +1,32 @@
+"Games"
+{
+    "cstrike"
+    {
+        "Signatures"
+        {
+            "CBaseEntity::OnTakeDamage"
+            {
+                "library"       "server"
+                "linux"         "@_ZN11CBaseEntity12OnTakeDamageERK15CTakeDamageInfo"
+            }
+        }
+
+        "Functions"
+        {
+            "CBaseEntity__OnTakeDamage"
+            {
+                "signature"     "CBaseEntity::OnTakeDamage"
+                "callconv"      "thiscall"
+                "return"        "int"
+                "this"          "entity"
+                "arguments"
+                {
+                    "info"
+                    {
+                        "type"    "objectptr"
+                    }
+                }
+            }
+        }
+    }
+}
